@@ -1,0 +1,41 @@
+@import './variables';
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', 'Source Sans Pro', sans-serif;
+}
+
+h3{
+  font-size: 1.20rem;
+}
+
+section{
+  padding: 100px 0;
+}
+
+hr.divider{
+  max-width: 3.25rem;
+  border-width: .2rem;
+  margin:auto;
+}
+
+.light-hr{
+  border-color: white;
+}
+
+.dark-hr{
+  border-color: black;
+}
+
+#about-us {
+  background-color: $primaryColorOnHover;
+}
+
+#testimonials{
+ background-color: #f0f0f0;
+}

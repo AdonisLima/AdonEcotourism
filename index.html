@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/7301f33322.js" crossorigin="anonymous"></script>
+
+  <!-- Montserrat font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+  <!-- Source Sans Pro font -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./scss/main.css">
+
+  <title>Adon EcoTourism</title>
+</head>
+
+<body>
+
+  <!-- TODO FILL MODALS -->
+  <!-- Modal 1 -->
+  <div class="modal fade" id="activities-modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Activities</h5>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>modal-body</p>
+        </div>
+        <div class="modal-footer">
+
+          <button type="button" data-dismiss="modal" class="btn btn-primary">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="modal fade" id="tours-modal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Tours</h5>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>modal-body</p>
+        </div>
+        <div class="modal-footer">
+
+          <button type="button" data-dismiss="modal" class="btn btn-primary">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="modal fade" id="lodge-modal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Lodge</h5>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>modal-body</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" data-dismiss="modal" class="btn btn-primary">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg fixed-top pt-4 pb-4" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand font-weight-bold" href="#">Adon Ecotourism</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mr-2">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item mr-2">
+            <a class="nav-link" href="#about-us">About us</a>
+          </li>
+          <li class="nav-item mr-2">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item mr-2">
+            <a href="#testimonials" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-item mr-2">
+            <a class="nav-link" href="#members">Members</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Masthead section -->
+  <header class="masthead" id="home">
+    <div class="overlay">
+      <div class="container h-100">
+        <div class="row h-100 align-content-center">
+          <div class="col-lg-6 text-white">
+            <h1 class="text-uppercase font-weight-bold">Come and discover the Amazon wildfile</h1>
+            <p class="font-weight-light mb-5 mt-3">We help you to know the beauties of the Amazon Rainforest
+            </p>
+          </div>
+          <div class="col-lg-8">
+            <a class="btn btn-primary btn-xl rounded-pill js-scroll-trigger pt-2 pb-2 pr-5 pl-5" role="button"
+              href="#about-us">Let's go</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About us section -->
+  <section id="about-us">
+    <div class="container h-100 d-flex justify-content-center">
+      <div class="row h-100 align-content-center text-center text-white col-lg-8">
+        <div class="col-12">
+          <h2 class="font-weight-bold">About us</h2>
+          <hr class="my-4 divider light-hr">
+          <p class="text-white-50">Our mission is to provide the best experience while in amazon. We believe that
+            ecotourism can be done in a
+            ecofriendly and responsible manner. </p>
+          <i class="fas fa-arrow-down pt-3"></i>
+        </div>
+      </div>
+  </section>
+
+  <!-- Services section -->
+  <section id="services">
+    <div class="container h-100">
+      <div class="">
+        <div class="row text-center">
+          <div class="col-12">
+            <h2 class="font-weight-bold">Services</h2>
+            <h3 class="text-muted on-mobile">Tap to see more!</h3>
+            <hr class="my-4 divider dark-hr">
+          </div>
+          <div class="col-12">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 pb-4">
+                <div class="services-item" id="activities">
+                  <a class="services-link" data-toggle="modal" href="#activities-modal">
+                    <div class="services-overlay">
+                      <div class="overlay-content">
+                        <h5>Activities</h5>
+                      </div>
+                    </div>
+                    <img src="./img/activities/thumb.jpg" alt="Activities">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 pb-4">
+                <div class="services-item" id="tours">
+                  <a class="services-link" data-toggle="modal" href="#tours-modal">
+                    <div class="services-overlay">
+                      <div class="overlay-content">
+                        <h5>Tours</h5>
+                      </div>
+                    </div>
+                    <img src="./img/tours/thumb.jpg" alt="Tours">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12">
+                <div class="services-item" id="lodge">
+                  <a class="services-link" data-toggle="modal" href="#lodge-modal">
+                    <div class="services-overlay">
+                      <div class="overlay-content">
+                        <h5>Lodge</h5>
+                      </div>
+
+                    </div>
+                    <img src="./img/lodge/thumb.jpg" alt="Lodge">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Testimonials section -->
+  <section id="testimonials">
+    <div class="container h-100 d-flex justify-content-center">
+      <div class="row h-100 align-content-center text-center col-lg-8">
+        <div class="col-12">
+          <h2 class="font-weight-bold">Testimonials</h2>
+          <hr class="my-4 divider dark-hr">
+          <p class="text-white-50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, quas quisquam.
+            Reprehenderit cumque soluta consequatur possimus eum facilis. Nobis sequi saepe debitis corrupti tempore!
+            Molestias consequuntur aliquid exercitationem voluptatem saepe.</p>
+        </div>
+      </div>
+  </section>
+
+  <!-- Brands Section -->
+  <!-- <section id="brands">
+
+  </section> -->
+
+  <!-- Contact section -->
+  <section id="contact">
+    <div class="container h-100 d-flex justify-content-center">
+      <div class="row h-100 align-content-center text-center col-lg-8">
+        <div class="col-12">
+          <h2 class="font-weight-bold">Contact</h2>
+          <hr class="my-4 divider dark-hr">
+          <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, quasi repellendus?
+            Eos nam deserunt sapiente magnam laboriosam sint quaerat quis provident odit molestias? Recusandae
+            repellendus perspiciatis sequi! Quasi, facilis consectetur.</p>
+        </div>
+      </div>
+
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>

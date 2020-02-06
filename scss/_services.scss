@@ -1,0 +1,69 @@
+.services-item img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  height: 500px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.services-item:hover img {
+  opacity: 0.3;
+}
+
+.services-item:hover .services-overlay {
+  opacity: 1;
+}
+
+.services-item{
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.services-overlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top:0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: $primaryColor;
+}
+
+.overlay-content {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+// Media query for service images
+@media (max-width: 991px){
+  .services-item {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  
+  }
+
+  .services-item img {
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 1;
+  }
+}
+
+// Media query for services subheading
+@media (min-width: 992px){
+  .on-mobile{
+    display: none;
+  }
+}

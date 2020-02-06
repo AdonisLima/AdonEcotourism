@@ -1,0 +1,48 @@
+@import './variables';
+
+// .navbar-brand {
+//   font-weight: 700;
+// }
+
+.navbar-brand, .nav-link{
+  color: white;
+}
+
+a:hover{
+  color: $primaryColor;
+}
+
+.font-weight-bold {
+  font-weight: 800;
+}
+
+.btn-primary {
+  outline-style: none;
+  border-color: $primaryColor;
+  background-color: $primaryColor;
+}
+
+.btn-primary:hover{
+  background-color: $primaryColorOnHover;
+  border-color: $primaryColorOnHover;
+}
+
+//Removes box-shadow when clicked
+.btn-primary:focus{
+  box-shadow: none!important;
+  outline: 0;
+}
+
+//Removes the color changing right after clicking
+.btn-primary:active:focus:not(:disabled):not(.disabled){
+  background-color: $primaryColorOnHover;
+  border-color: $primaryColorOnHover;
+}
+
+
+/* MODALS */
+//Increases the size of the modals
+.modal-dialog{
+  margin: 1rem;
+  max-width: 100vw;
+}
