@@ -38,11 +38,3 @@ a:hover{
   background-color: $primaryColorOnHover;
   border-color: $primaryColorOnHover;
 }
-
-
-/* MODALS */
-//Increases the size of the modals
-.modal-dialog{
-  margin: 1rem;
-  max-width: 100vw;
-}
