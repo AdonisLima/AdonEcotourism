@@ -9,7 +9,7 @@
 }
 
 a:hover{
-  color: $primaryColor;
+  color: $primary-color;
 }
 
 .font-weight-bold {
@@ -18,13 +18,13 @@ a:hover{
 
 .btn-primary {
   outline-style: none;
-  border-color: $primaryColor;
-  background-color: $primaryColor;
+  border-color: $primary-color;
+  background-color: $primary-color;
 }
 
 .btn-primary:hover{
-  background-color: $primaryColorOnHover;
-  border-color: $primaryColorOnHover;
+  background-color: $primary-color-on-hover;
+  border-color: $primary-color-on-hover;
 }
 
 //Removes box-shadow when clicked
@@ -35,6 +35,6 @@ a:hover{
 
 //Removes the color changing right after clicking
 .btn-primary:active:focus:not(:disabled):not(.disabled){
-  background-color: $primaryColorOnHover;
-  border-color: $primaryColorOnHover;
+  background-color: $primary-color-on-hover;
+  border-color: $primary-color-on-hover;
 }

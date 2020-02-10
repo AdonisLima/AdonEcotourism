@@ -8,23 +8,18 @@
 i.fas.fa-bars{
   font-size: 1.5rem;
   color: white;
+
+  &:hover{
+    color: $orange;
+  }
 }
 
-i.fas.fa-bars:hover{
-  color: $orange;
-}
-
-navbar a {
-  transition: .5s ease;
-}
-
-navbar a:hover{
-  background-color:white;
+.navbar a , i{
+  transition: .2s ease;
 }
 
 @media(max-width: 991px){
   #mainNav{
     background: #212529; 
   }
-  
 }

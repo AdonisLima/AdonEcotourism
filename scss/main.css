@@ -40,7 +40,7 @@ hr.divider {
 
 .masthead {
   height: 100vh;
-  background-image: url("./../img/bg-masthead1.jpg");
+  background-image: url("./../img/masthead/bg-masthead1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -74,13 +74,9 @@ i.fas.fa-bars:hover {
   color: #FE7C00;
 }
 
-navbar a {
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
-}
-
-navbar a:hover {
-  background-color: white;
+.navbar a, i {
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
 }
 
 @media (max-width: 991px) {
@@ -91,6 +87,12 @@ navbar a:hover {
 
 #services {
   padding-bottom: 70px;
+}
+
+.services-item {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
 }
 
 .services-item img {
@@ -105,18 +107,12 @@ navbar a:hover {
           backface-visibility: hidden;
 }
 
-.services-item:hover img {
-  opacity: 0.3;
-}
-
 .services-item:hover .services-overlay {
   opacity: 1;
 }
 
-.services-item {
-  overflow: hidden;
-  position: relative;
-  width: 100%;
+.services-item:hover img {
+  opacity: 0.3;
 }
 
 .services-overlay {
@@ -179,7 +175,7 @@ navbar a:hover {
   cursor: pointer;
 }
 
-#line-1, #line-2 {
+.x-close-modal #line-1, .x-close-modal #line-2 {
   width: 2px;
   height: 30px;
   background-color: black;
@@ -187,12 +183,12 @@ navbar a:hover {
   transition: .2s ease;
 }
 
-#line-1 {
+.x-close-modal #line-1 {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
 
-#line-2 {
+.x-close-modal #line-2 {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
 }
@@ -201,7 +197,7 @@ navbar a:hover {
   background-color: #FE7C00;
 }
 
-.modal-content > h3 {
+.modal-content h3 {
   font-size: 2.5rem;
 }
 
