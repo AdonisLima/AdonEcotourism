@@ -3,6 +3,8 @@
 
 #mainNav {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.0));
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 i.fas.fa-bars{
@@ -21,5 +23,8 @@ i.fas.fa-bars{
 @media(max-width: 991px){
   #mainNav{
     background: #212529; 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
+
 }

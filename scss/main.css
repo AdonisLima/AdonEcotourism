@@ -63,6 +63,8 @@ hr.divider {
 #mainNav {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 i.fas.fa-bars {
@@ -82,6 +84,8 @@ i.fas.fa-bars:hover {
 @media (max-width: 991px) {
   #mainNav {
     background: #212529;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
 
@@ -160,6 +164,12 @@ i.fas.fa-bars:hover {
 @media (min-width: 992px) {
   .on-mobile {
     display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .services-item img {
+    height: 60vh;
   }
 }
 
