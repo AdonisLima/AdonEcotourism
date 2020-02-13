@@ -43,8 +43,8 @@
 .modal-image {
   padding: 0 0.5rem 0 0.5rem;
   img{
-    width: 300px;
-    height: 300px;
+    max-height: 300px;
+    max-width: 100%;
     object-fit: cover;
   }
 }

@@ -216,8 +216,8 @@ i.fas.fa-bars:hover {
 }
 
 .modal-image img {
-  width: 300px;
-  height: 300px;
+  max-height: 300px;
+  max-width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
